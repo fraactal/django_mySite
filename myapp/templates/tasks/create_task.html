@@ -1,0 +1,23 @@
+
+{%extends 'layouts/base.html'%}
+
+{% block content %}
+
+<h1>Create a new task</h1>
+
+{# <input type="text"> #}
+{# <textarea name="descripcion" id="" cols="30" rows="10"></textarea> #}
+
+{#Se para el valor de la varible desde la clase views.py#}
+{# form #}
+{# form.as_p -> los encapsula en tag </p> #}
+<form action="" method="POST" >
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button>
+        Save
+    </button>
+</form>
+
+
+{% endblock %}
