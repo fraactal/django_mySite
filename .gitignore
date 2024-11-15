@@ -1,0 +1,15 @@
+
+# ignore ALL .log files
+*.log
+
+# ignore ALL files __pycache__ from myapp
+myapp/__pycache__
+
+# ignore ALL files __pycache__ from mysite
+myapp/migrations/__pycache__/
+
+# ignore ALL files __pycache__ from mysite
+mysite/__pycache__
+
+# ignore ALL files in directory named virtual_django_mysite
+virtual_django_mysite/
